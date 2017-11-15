@@ -1,0 +1,12 @@
+com/rscomponents/test/pageobject/NewProductPage.class
+com/rscomponents/test/util/BrowserConfig.class
+com/rscomponents/test/pageobject/PaymentPage.class
+com/rscomponents/test/pageobject/TrackingPage.class
+com/rscomponents/test/stepdefintions/EndToEndUserJourney.class
+com/rscomponents/test/util/Waiter.class
+com/rscomponents/test/pageobject/HomePage.class
+AcceptanceTest.class
+com/rscomponents/test/pageobject/CheckoutPage.class
+com/rscomponents/test/pageobject/LoginPage.class
+com/rscomponents/test/pageobject/LoginPopWindow.class
+com/rscomponents/test/pageobject/BrandPage.class

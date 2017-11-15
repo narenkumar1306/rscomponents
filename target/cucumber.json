@@ -1,0 +1,680 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5898425496,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a web browser is at rs components home page \"http://uk.rs-online.com/web/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://uk.rs-online.com/web/",
+                  "offset": 45
+                }
+              ],
+              "location": "EndToEndUserJourney.aWebBrowserIsAtRsComponentsHomePage(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Login user should navigate to payment page to process the order",
+        "description": "",
+        "id": "as-a-user,-i-want-to-go-through-end-to-end-tests-so-that-i-can-be-familiar-with-rs-component-website;login-user-should-navigate-to-payment-page-to-process-the-order",
+        "after": [
+          {
+            "result": {
+              "duration": 460739213,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EndToEndUserJourney.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2161806407,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enters the username as \"naren1306\" and the password as \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naren1306",
+                  "offset": 24
+                },
+                {
+                  "val": "test123",
+                  "offset": 56
+                }
+              ],
+              "location": "EndToEndUserJourney.entersTheUsernameAsAndThePasswordAs(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1769872290,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on the login button to login",
+            "match": {
+              "location": "EndToEndUserJourney.clicksOnTheLoginButtonToLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2547557182,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on New products menu",
+            "match": {
+              "location": "EndToEndUserJourney.clicksOnNewProductsMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3353754660,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "selects the pi-top laptop from new products list",
+            "match": {
+              "location": "EndToEndUserJourney.selectsThePiTopLaptopFromNewProductsList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176637587,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "confirm the selected product and units",
+            "match": {
+              "location": "EndToEndUserJourney.confirmTheSelectedProductAndUnits()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368849816,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on the add to basket button",
+            "match": {
+              "location": "EndToEndUserJourney.clicksOnTheAddToBasketButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4634603282,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicks on the view basket button",
+            "match": {
+              "location": "EndToEndUserJourney.clicksOnTheViewBasketButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213242737,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I will be able to see the checkout page",
+            "match": {
+              "location": "EndToEndUserJourney.iWillBeAbleToSeeTheCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4802174273,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I clicks on the checkout securely button to checkout",
+            "match": {
+              "location": "EndToEndUserJourney.iClicksOnTheCheckoutSecurelyButtonToCheckout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115246969,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should able to navigate to the payments page",
+            "match": {
+              "location": "EndToEndUserJourney.iShouldAbleToNavigateToThePaymentsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4638835542,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a web browser is at rs components home page \"http://uk.rs-online.com/web/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://uk.rs-online.com/web/",
+                  "offset": 45
+                }
+              ],
+              "location": "EndToEndUserJourney.aWebBrowserIsAtRsComponentsHomePage(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "User will be asking to login to process the order",
+        "description": "",
+        "id": "as-a-user,-i-want-to-go-through-end-to-end-tests-so-that-i-can-be-familiar-with-rs-component-website;user-will-be-asking-to-login-to-process-the-order",
+        "after": [
+          {
+            "result": {
+              "duration": 325628656,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EndToEndUserJourney.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2102902985,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicks on New products menu",
+            "match": {
+              "location": "EndToEndUserJourney.clicksOnNewProductsMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2197813059,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "selects the pi-top laptop from new products list",
+            "match": {
+              "location": "EndToEndUserJourney.selectsThePiTopLaptopFromNewProductsList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111217991,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "confirm the selected product and units",
+            "match": {
+              "location": "EndToEndUserJourney.confirmTheSelectedProductAndUnits()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271015298,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicks on the add to basket button",
+            "match": {
+              "location": "EndToEndUserJourney.clicksOnTheAddToBasketButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5960210545,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks on the view basket button",
+            "match": {
+              "location": "EndToEndUserJourney.clicksOnTheViewBasketButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300990537,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I will be able to see the checkout page",
+            "match": {
+              "location": "EndToEndUserJourney.iWillBeAbleToSeeTheCheckoutPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 365769304,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I clicks on the checkout securely button to checkout",
+            "match": {
+              "location": "EndToEndUserJourney.iClicksOnTheCheckoutSecurelyButtonToCheckout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 419048924,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "should able to see a pop window asking to enter the login details",
+            "match": {
+              "location": "EndToEndUserJourney.shouldAbleToSeeAPopWindowAskingToEnterTheLoginDetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1541384018,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should able to navigate to the payments page",
+            "match": {
+              "location": "EndToEndUserJourney.iShouldAbleToNavigateToThePaymentsPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a User, I want to go through end to end tests so that I can be familiar with RS Component website",
+    "description": "",
+    "id": "as-a-user,-i-want-to-go-through-end-to-end-tests-so-that-i-can-be-familiar-with-rs-component-website",
+    "keyword": "Feature",
+    "uri": "endToEndUserJourney.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@EndToEndTest"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4810634011,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a web browser is at rs components home page \"http://uk.rs-online.com/web/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://uk.rs-online.com/web/",
+                  "offset": 45
+                }
+              ],
+              "location": "EndToEndUserJourney.aWebBrowserIsAtRsComponentsHomePage(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Invalid track order number should display error notification message",
+        "description": "",
+        "id": "as-a-user,-i-want-to-use-search-filter-so-that-i-can-do-search-what-i-need-from-the-rs-component-website;invalid-track-order-number-should-display-error-notification-message",
+        "after": [
+          {
+            "result": {
+              "duration": 423426645,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EndToEndUserJourney.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 156554774,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "entered invalid track order number \"2145abcd\" in the rs order number search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2145abcd",
+                  "offset": 36
+                }
+              ],
+              "location": "EndToEndUserJourney.enteredInvalidTrackOrderNumberInTheRsOrderNumberSearchField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1537875919,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the track order button",
+            "match": {
+              "location": "EndToEndUserJourney.iClickOnTheTrackOrderButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132555595,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i will be navigate to parcel tracking page",
+            "match": {
+              "location": "EndToEndUserJourney.iWillBeNavigateToParcelTrackingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52372442,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i should able to see error notification message \"No orders matched your search criteria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No orders matched your search criteria",
+                  "offset": 49
+                }
+              ],
+              "location": "EndToEndUserJourney.iShouldAbleToSeeErrorNotificationMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4495833535,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a web browser is at rs components home page \"http://uk.rs-online.com/web/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://uk.rs-online.com/web/",
+                  "offset": 45
+                }
+              ],
+              "location": "EndToEndUserJourney.aWebBrowserIsAtRsComponentsHomePage(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Search for the brand in the search field",
+        "description": "",
+        "id": "as-a-user,-i-want-to-use-search-filter-so-that-i-can-do-search-what-i-need-from-the-rs-component-website;search-for-the-brand-in-the-search-field",
+        "after": [
+          {
+            "result": {
+              "duration": 456861992,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EndToEndUserJourney.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92055969,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "entered the brand as \"microchip\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "microchip",
+                  "offset": 22
+                }
+              ],
+              "location": "EndToEndUserJourney.enteredTheBrandAsInTheSearchField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3297149274,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the search cog",
+            "match": {
+              "location": "EndToEndUserJourney.iClickOnTheSearchCog()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94644717,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should able to see \"Categories for Microchip\" in the microchip brand page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Categories for Microchip",
+                  "offset": 22
+                }
+              ],
+              "location": "EndToEndUserJourney.iShouldAbleToSeeInTheMicrochipBrandPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4633076926,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a web browser is at rs components home page \"http://uk.rs-online.com/web/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://uk.rs-online.com/web/",
+                  "offset": 45
+                }
+              ],
+              "location": "EndToEndUserJourney.aWebBrowserIsAtRsComponentsHomePage(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "User can search and process the order through quick order feature",
+        "description": "",
+        "id": "as-a-user,-i-want-to-use-search-filter-so-that-i-can-do-search-what-i-need-from-the-rs-component-website;user-can-search-and-process-the-order-through-quick-order-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 350235693,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EndToEndUserJourney.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 113684687,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "entered the product code \"884-1310\" in the rs stock number search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "884-1310",
+                  "offset": 26
+                }
+              ],
+              "location": "EndToEndUserJourney.enteredTheProductCodeInTheRsStockNumberSearchField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4454796299,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on the add to basket button",
+            "match": {
+              "location": "EndToEndUserJourney.iClickOnTheAddToBasketButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 293074848,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I will be able to see the checkout page",
+            "match": {
+              "location": "EndToEndUserJourney.iWillBeAbleToSeeTheCheckoutPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32865191,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should able see product the product code \"RS Stock No. 884-1310\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RS Stock No. 884-1310",
+                  "offset": 44
+                }
+              ],
+              "location": "EndToEndUserJourney.iShouldAbleSeeProductTheProductCode(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a User, I want to use search filter so that I can do search what i need from the RS Component Website",
+    "description": "",
+    "id": "as-a-user,-i-want-to-use-search-filter-so-that-i-can-do-search-what-i-need-from-the-rs-component-website",
+    "keyword": "Feature",
+    "uri": "searchFilterResultPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SearchFilterResultPage"
+      }
+    ]
+  }
+]
